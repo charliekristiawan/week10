@@ -1,9 +1,9 @@
-def calculate_area(width,height):
-    area = width*height
-    return area
+def calculate_area(width1,height1):
+    area1 = width1 * height1
+    return area1
 
 print('Area calculator')
-width=int(input('Enter width'))
-height=int(input('Enter height'))
-area=calculate_area(width,height)
-print('Area =',area)
+width1 = int(input('Enter width'))
+height1 = int(input('Enter height'))
+area1 = calculate_area(width1,height1)
+print('Area =',area1) 
